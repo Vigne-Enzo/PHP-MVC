@@ -1,4 +1,6 @@
 <?php
 require 'app/bootstrap.php';
-require 'resources/views/template.php';
+require_once 'app/Controllers/Home.php';
+$controller = new Home();
+$controller->index();
 ?>
