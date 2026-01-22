@@ -1,4 +1,5 @@
 <?php
+DEFINE('DB_PATH', realpath("./database.sqlite") );
 
 /**
  * TOUT LE CODE CONTENU DANS LES BALISES <?php et ?>
